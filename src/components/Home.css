@@ -1,0 +1,42 @@
+/* Home.css */
+body{
+    background-color: #1D2F6F;
+
+}
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #FAC748;
+  }
+  
+  h1 {
+    color: #222;
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+
+  }
+  h2{
+    padding-left: 100px;
+    padding-bottom: 50PX;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    padding-left: 100px;
+  }
+  
+  .button {
+    background-color: #7281f1;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,44 @@
+/* src/Instructions.css */
+
+.instructions-container {
+  max-width: 800px; /* Limits the width for readability */
+  margin: auto; /* Center the container on the page */
+padding-left: 200px;
+  font-size: 16px;
+  color: aliceblue;
+  }
+  
+h1 {
+  text-align: center;
+  color: #F88DAD;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #FAC748;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+  .instructions-nav {
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #000f1f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    font-size: 16px;
+  }
+  

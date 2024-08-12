@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+/* src/App.css or a dedicated CSS file for your LoginPage */
+body, html {
+  height: 100%; /* Full height */
+  margin: 0; /* Reset default margin */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-container {
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text elements */
+  padding-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="text"],
+input[type="password"] {
+  width: 90%; /* Adjust width as needed */
+  padding: 8px;
+  margin-top: 10px; /* Space between inputs */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 10px 20px;
+  margin-top: 20px; /* Space above the button */
+  cursor: pointer; /* Cursor indicates clickable item */
 }
